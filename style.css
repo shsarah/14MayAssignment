@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    margin: 0 40px;
+    padding: 0 40px;
+}
+
+.context{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes{
+    margin-top: 100px;
+    width: 500px;
+    border-radius: 8px;
+    background-color: rgb(255, 217, 223);
+    padding: 40px;
+}
+
+.boxes h3{
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+}
+
+.input{
+    height: 40px;
+    width: 380px;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+input::-webkit-input-placeholder {
+    font-size: 18px;
+    color:#989898;
+}
+
+.button{
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 187, 197);
+}
+
+.task{
+    width: 380px;
+    height: 80px;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#rmv_btn{
+    padding: 10px;
+    background-color: red;
+    border-radius: 3px;
+    border: #989898 0.3px solid;
+}
+
+.task_footer{
+    margin-top: 23px;
+    margin-left: 347px;
+}
+
+ul{
+    list-style: none;
+}
+
+#clear_all{
+    padding: 5px;
+    border-radius: 3px;
+    border: #989898 0.3px solid;
+    margin-top: 20px;
+}
+
+#rmv_btn:hover{
+    background-color: rgb(244, 85, 85);
+}
+
+#clear_all:hover{
+    color:white;
+    background-color: rgb(255, 187, 197);
+}
